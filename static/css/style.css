@@ -586,7 +586,6 @@ body.overflow {
   content: "";
   position: absolute;
   display: block;
-  background: url("../fonts/play.svg") no-repeat center/60%;
   width: 60px;
   height: 60px;
   top: 50%;

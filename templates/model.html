@@ -161,6 +161,24 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 	</noscript>
 	<!-- End Facebook Pixel Code -->
 
+    <style> 
+        input.button.order-consultation::-webkit-file-upload-button {
+    /* position: absolute; */
+    /* padding: 10px 20px; */
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    /* box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%), 0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%); */
+    transition: 100ms ease-out;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 5rem;
+}
+    
+    </style>
+
 <link rel="icon" href="static/images/cropped-logo_tomo-32x32.png" sizes="32x32">
 <link rel="icon" href="static/images/cropped-logo_tomo-192x192.png" sizes="192x192">
 <link rel="apple-touch-icon" href="static/images/cropped-logo_tomo-180x180.png">
@@ -168,6 +186,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 </head>
 
 <body>
+
     <div class="modal"></div>
 
     <header id="main-header">
@@ -219,11 +238,11 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
     </header>
 
 <main class="main-page">
-    <section class="section-one menu-anchor" id="section-one">
+    <section class="section-one menu-anchor" id="section-one" style="height: 460px;">
         <div class="wrapper">
-            <div class="section-one__info">
+            <div class="section-one__info" style="margin-top: 10%;">
                 <h1>GENA</h1>
-                <p>Painless and effective<br> cancer treatment with<br>the most machine learning</p>
+                <p>Painless and effective<br> cancer treatment with<br>the best machine learning tech</p>
                 <!-- <button class="button order-consultation">Consultation</button> -->
                 <!-- <form
                 action="http://localhost:5000/model"
@@ -361,6 +380,8 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
                     <input class="button order-consultation" type="file" name="files" , multiple="true" required />
                     <input class="button order-consultation" style="border: none;" type="submit"  value="try it now"/>
                 </form>
+                <script>alert('result {{result}}')</script>
+
                 <!-- <button class="button order-consultation">Try it now </button> -->
             </div>
         </div>
@@ -392,7 +413,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <!-- End Google Tag Manager (noscript) -->
 
 <!-- Yandex.Metrika counter -->
-<script type="text/javascript">
+<!-- <script type="text/javascript">
    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
@@ -404,7 +425,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
         webvisor:true,
         ecommerce:"dataLayer"
    });
-</script>
+</script> -->
 <noscript><div><img src="https://mc.yandex.ru/watch/88906326" style="position:absolute; left:-9999px;" alt></div></noscript>
 <!-- /Yandex.Metrika counter -->
 

@@ -58,7 +58,7 @@ def uploadfile():
     else:
         result = "Positive"
 
-    return render_template('result.html', result=result)
+    return render_template('model.html', result=result)
 		
 
 if __name__ == '__main__':
